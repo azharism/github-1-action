@@ -43,7 +43,7 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             whoami
-            git clone https://https://github.com/azharism/github-1-action.git
+            git clone https://github.com/azharism/github-1-action.git
             cd /home/ubuntu/github-1-action
             git init
             git pull origin main
