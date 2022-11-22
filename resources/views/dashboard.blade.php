@@ -1,7 +1,7 @@
 @extends('layouts/default')
 {{-- Page title --}}
 @section('title')
-{{ trans('Shahed') }}
+{{ trans('Snipe-IT') }}
 @parent
 @stop
 
